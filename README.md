@@ -1,4 +1,4 @@
-| Info                | Value                                          |
+|                     |                                                |
 | :------------------ | :--------------------------------------------- |
 | **Course**          | CSCI110 - Beginning Programming with Python    |
 | **Section**         | 3                                              |
@@ -9,19 +9,16 @@
 
 ## Assignments
 
-### Assignment #1
-
-| Info        | Value                                                                           |
-| :---------- | :------------------------------------------------------------------------------ |
-| Name        | A01-stdIO                                                                       |
-| Self Grade  | 80/100                                                                          |
-| Notes       | completed the solution, didn't have time to write test cases                               |
+|                 |                                                                      |
+| :----------     | :------------------------------------------------------------------- |
+| **Name**        | Assignment 01 - stdIO                                                |
+| **Self Grade**  | 16/20                                                                |
+| **Notes**       | completed the solution, didn't have time to write test cases         |
 
 ## Labs
 
-| Info        | Value                                                                           |
-| :---------- | :------------------------------------------------------------------------------ |
-| Name        | L00-setup                                                                       |
-| Self Grade  | 100/100                                                                         |
-| Notes       | completed all the requirements                                                  |
-
+|             |                                                                          |
+| :---------- | :----------------------------------------------------------------------- |
+| **Name**        | L00-setup                                                                |
+| **Self Grade**  | 20/20                                                                    |
+| **Notes**       | completed all the requirements                                           |
