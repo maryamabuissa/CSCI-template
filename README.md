@@ -3,7 +3,7 @@
 | **Course**          | CSCI110 - Beginning Programming with Python    |
 | **Section**         | 3                                              |
 | **Semester**        | Fall 2026                                      |
-| **Student Name**    | Maryam Abuissa                                       |
+| **Student Name**    |                                        |
 | **Mav Username**    | astudent                                       |
 | **GitHub Username** | gituser123                                     |
 
@@ -15,6 +15,13 @@
 | **Self Grade**    | 16/20                                                                |
 | **Justification** | completed the solution, didn't have time to write test cases         |
 
+
+|                   |                                                                      |
+| :----------       | :------------------------------------------------------------------- |
+| **Name**          | Assignment 01 - stdIO                                                |
+| **Self Grade**    | 20/20                                                                |
+| **Justification** | completed the solution, included screenshots         |
+
 ## Labs
 
 |                   |                                                                      |
@@ -22,6 +29,8 @@
 | **Name**          | L00-setup                                                            |
 | **Self Grade**    | 25/25                                                                |
 | **Justification** | completed all the requirements                                       |
+
+
 
 
 |                   |                                                                           |
