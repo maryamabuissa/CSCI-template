@@ -3,7 +3,7 @@
 | **Course**          | CSCI110 - Beginning Programming with Python    |
 | **Section**         | 3                                              |
 | **Semester**        | Fall 2026                                      |
-| **Student Name**    | John Doe                                       |
+| **Student Name**    | Maryam Abuissa                                       |
 | **Mav Username**    | astudent                                       |
 | **GitHub Username** | gituser123                                     |
 
