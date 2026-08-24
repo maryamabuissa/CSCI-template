@@ -15,12 +15,13 @@
 | **Self Grade**    | 16/20                                                                |
 | **Justification** | completed the solution, didn't have time to write test cases         |
 
-
 |                   |                                                                      |
 | :----------       | :------------------------------------------------------------------- |
 | **Name**          | Assignment 01 - stdIO                                                |
-| **Self Grade**    | 20/20                                                                |
-| **Justification** | completed the solution, included screenshots         |
+| **Self Grade**    | 4/20                                                                |
+| **Justification** | I only had time to update the readme         |
+
+
 
 ## Labs
 
