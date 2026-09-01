@@ -22,6 +22,7 @@
 | **Justification** | I only had time to update the readme         |
 
 
+
 |                   |                                                                      |
 | :----------       | :------------------------------------------------------------------- |
 | **Name**          | Assignment 02 - math                                                |

@@ -1,13 +1,11 @@
-# I didn't use outside resources
+# no outside resources
 
-# take input
+# Take input
 a, b = input().split()
-# print(f"a is {a} and b is {b}")
 
-# turn them into numbers
+# Make input into numbers
 a = int(a)
 b = int(b)
 
-# add them
-c = a + b
-print(c)
+# Add input
+print(a + b)
