@@ -1,7 +1,7 @@
-accepted: 1
+accepted: 2
 cpu_limit: ''
 difficulty: '1.2 '
 mem_limit: None
 problemid: twosum
-submissions: 1
+submissions: 2
 title: Two-sum

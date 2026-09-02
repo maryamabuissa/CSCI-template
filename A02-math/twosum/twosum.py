@@ -1,11 +1,11 @@
-# no outside resources
+# No outside resources
 
-# Take input
+# take input
 a, b = input().split()
 
-# Make input into numbers
+# turn input into numbers
 a = int(a)
 b = int(b)
 
-# Add input
+# print sum
 print(a + b)
