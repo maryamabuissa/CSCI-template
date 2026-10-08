@@ -34,5 +34,5 @@ def remove_all(lst):
 
 # note: try tracing this
 lst = remove_all(letters)
-print(lst)
-print(letters)
+print(lst) # the list is returned
+print(letters) # but the original list is also changed
