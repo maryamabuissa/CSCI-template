@@ -4,7 +4,7 @@ my_cards = []
 your_cards = []
 
 def create_sorted_deck():
-    ranks = list(range(1, 11)) + [10, 10, 10]
+    ranks = range(1, 14)
     suits = ["spades", "clubs", "hearts", "diamonds"]
     deck = []
     for rank in ranks:
@@ -19,7 +19,10 @@ def get_random_card(deck):
 def sum_hand(hand):
     sum = 0
     for card in hand:
-        sum += card["rank"]
+        rank = card["rank"]
+        if rank > 10:
+            rank = 10
+        sum += rank
     return sum
 
 def deal_one_to_all(deck, hole):
