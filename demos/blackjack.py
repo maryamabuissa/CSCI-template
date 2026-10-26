@@ -4,7 +4,7 @@ my_cards = []
 your_cards = []
 
 def create_sorted_deck():
-    ranks = range(1, 13)
+    ranks = range(1, 11) + [10, 10, 10]
     suits = ["spades", "clubs", "hearts", "diamonds"]
     deck = []
     for rank in ranks:
