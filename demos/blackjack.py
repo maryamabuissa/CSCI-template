@@ -49,6 +49,7 @@ def round():
             exit()
     while sum_hand(my_cards) < 17:
         draw = get_random_card(deck)
+        print(f"I might as well tell you now... I drew the {draw["rank"]} of {draw["suit"]}")
         my_cards.append(draw)
         if sum_hand(my_cards) > 21:
             print(f"Well it's not much fair that I busted, I don't even get to choose what I do! It was only {sum_hand(my_cards)} anyways...")
