@@ -37,38 +37,38 @@ class Deck:
 
 
 
- def round():
-     deck = Deck(True)
-     your_cards = Deck(False)
-     my_cards = Deck(False)
-     your_cards.drew(deck.draw("You"))
-     my_cards.drew(deck.draw("I"))
-     your_cards.drew(deck.draw("You"))
-     my_cards.drew(deck.draw())
-     while input("hit? Type y/n\n") == "y":
-         your_cards.drew(deck.draw("You"))
-         if your_cards.sum() > 21:
-             print("You lose!")
-             return
-     while my_cards.sum() < 17:
-         my_cards.drew(deck.draw("I"))
-         if my_cards.sum() > 21:
-             print(f"Well it's not much fair that I busted, I don't even get to choose what I do! It was only {my_cards.sum()} anyways...")
-             return
-     your_sum = your_cards.sum()
-     my_sum = my_cards.sum()
-     if your_sum > my_sum:
-         print(f"Dang you! You dirty cheater. No way you scored {your_sum} when I only got {my_sum}")
-     elif my_sum > your_sum:
-         print(f"Obviously *rolls eyes* I win again. My {my_sum} easily bests your measly {your_sum}")
-     else:
-         print("A tie...?!")
+def round():
+    deck = Deck(True)
+    your_cards = Deck(False)
+    my_cards = Deck(False)
+    your_cards.drew(deck.draw("You"))
+    my_cards.drew(deck.draw("I"))
+    your_cards.drew(deck.draw("You"))
+    my_cards.drew(deck.draw())
+    while input("hit? Type y/n\n") == "y":
+        your_cards.drew(deck.draw("You"))
+        if your_cards.sum() > 21:
+            print("You lose!")
+            return
+    while my_cards.sum() < 17:
+        my_cards.drew(deck.draw("I"))
+        if my_cards.sum() > 21:
+            print(f"Well it's not much fair that I busted, I don't even get to choose what I do! It was only {my_cards.sum()} anyways...")
+            return
+    your_sum = your_cards.sum()
+    my_sum = my_cards.sum()
+    if your_sum > my_sum:
+        print(f"Dang you! You dirty cheater. No way you scored {your_sum} when I only got {my_sum}")
+    elif my_sum > your_sum:
+        print(f"Obviously *rolls eyes* I win again. My {my_sum} easily bests your measly {your_sum}")
+    else:
+        print("A tie...?!")
 
- def main():
-     print("Welcome to blackjack! I am the dealer.")
-     rounds = 1
-     for _ in range(rounds):
-         round()
+def main():
+    print("Welcome to blackjack! I am the dealer.")
+    rounds = 1
+    for _ in range(rounds):
+        round()
 
- if __name__ == "__main__":
-     main()
+if __name__ == "__main__":
+    main()
