@@ -7,8 +7,15 @@ if age >= 18: # if statement
     print("and you have full legal rights")
 elif age < 0: # else if statement
     print("Your age seems off...")
+elif age > 125:
+    print("You should apply to the guiness world records")
 else: # else statement
     print("You cannot vote :(")
+
+
+
+
+
 
 if age >= 18 and random.random() == 0: # and returns true if both sides are true
     print("It's your lucky day, you can vote!")

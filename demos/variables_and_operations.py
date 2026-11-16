@@ -1,4 +1,3 @@
-import sys
 
 # Variables
 # format: {variable} = {value}

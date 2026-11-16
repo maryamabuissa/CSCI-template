@@ -12,7 +12,7 @@ class Card:
     def suit(self):
         return self.suit
 
-    def to_string(self):
+    def __str__(self):
         return f"{self.rank} of {self.suit}"
 
 class Deck:
@@ -37,3 +37,7 @@ class Deck:
 
     def drew(self, card):
         self.deck.append(card)
+
+d = Deck(True)
+sum = Deck.sum(d)
+sum = d.sum()

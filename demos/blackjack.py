@@ -1,29 +1,17 @@
+from card_and_deck import Deck, Card
 import random
 
 my_cards = []
 your_cards = []
 
 def create_sorted_deck():
-    ranks = range(1, 14)
-    suits = ["spades", "clubs", "hearts", "diamonds"]
-    deck = []
-    for rank in ranks:
-        for suit in suits:
-            deck.append({"suit": suit, "rank": rank})
-    return deck
+    return Deck(True)
 
 def get_random_card(deck):
-    index = random.randint(0, len(deck) - 1)
-    return deck.pop(index)
+    return deck.draw()
 
 def sum_hand(hand):
-    sum = 0
-    for card in hand:
-        rank = card["rank"]
-        if rank > 10:
-            rank = 10
-        sum += rank
-    return sum
+    return hand.sum()
 
 def deal_one_to_all(deck, hole):
     draw = get_random_card(deck)
@@ -73,7 +61,7 @@ if __name__ == "__main__":
     main()
 
 
-# What if I wanted to use a list of dictionaries to implement the following functionalities?
+# What if I wanted to use a list of dictionaries to implement the following?
 # Check if there are any duplicate cards in play
 # Combine multiple hands
 # Compare winning hands in a game like poker
